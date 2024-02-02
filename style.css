@@ -72,6 +72,7 @@
   height:30px;
   background-color:rgb(200, 193, 193) ;
   font-size: 20px;
+  cursor:pointer:
 }
 #open{
   top:70%;
@@ -81,7 +82,8 @@
   height:30px;
   background-color:rgb(200, 193, 193) ;
   font-size: 20px;
-  animation: blink 1s infinite
+  animation: blink 1s infinite;
+  cursor:pointer;
 }
 @keyframes blink{
   0%{background-color:green;}
@@ -127,6 +129,7 @@
   font-size: 30px;
   animation:blink 1s infinite;
   color:green;
+  cursor:pointer;
 }
 
 /* loss page*/
@@ -151,4 +154,5 @@ height:40px;
 font-size: 30px;
 animation: blink 1s infinite;
 background-color: transparent;
+cursor:pointer;
 }
